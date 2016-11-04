@@ -1,0 +1,93 @@
+body {
+  padding-top:70px;
+  padding-bottom: 70px;
+}
+
+.form-control {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+
+}
+
+.btn {
+  display: inline;
+  border: 0;
+}
+
+
+.active-link {
+  /*text-decoration: underline;*/
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+}
+
+/*.active {
+  font-weight: bold;
+  text-decoration: underline;
+}*/
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/*.story-header {
+  display: block;
+  margin: auto;
+}*/
+
+.navbar-default {
+  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  /*border: none;*/
+}
+
+.panel {
+  box-shadow: none;
+}
+
+.panel-group {
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+}
+
+.panel-default {
+  border-color: white;
+}
+
+.panel-default>.panel-heading{
+  background-color: white;
+  border: 0;
+}
+
+.list-group-item {
+  border: 0;
+}
+
+a {
+  color: #959595;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #F4FA58;
+}
+
+@media(min-width:768px) {
+  .navbar .navbar-form {
+    width:250px;
+  }
+}
+
+/*WHY DOESNT THIS WORK*/
+#footer {
+  max-height: 50px;
+}
+
+.navbar-fixed-bottom {
+  height: 50px;
+  padding: 0px 5px 0px 5px;
+}
